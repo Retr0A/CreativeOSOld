@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreativeOS 2.0</title>
+</head>
+<body>
+    <div class="taskbar">
+        <button onclick="OpenMainExplorer()" class="taskbarButton" width="100px" height="100px"><img src="img/mainExplorer.png" width="60px" height="60px"></button>
+        <button onclick="OpenWriter()" class="taskbarButton" width="100px" height="100px"><img src="img/writer.png" width="60px" height="60px"></button>
+        <button onclick="OpenSettings()" class="taskbarButton" width="100px" height="100px"><img src="img/settings.png" width="60px" height="60px"></button>
+    </div>
+
+    <iframe id="currentWindow" class="currentWindow" src="programs/MainExplorer.html"></iframe>
+
+    <script type="text/javascript" src="hideRightClickDropDown.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

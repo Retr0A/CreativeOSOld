@@ -1,0 +1,65 @@
+body {
+
+    background-color: black;
+
+}
+
+h1 {
+
+    color: white;
+    font-size: 15px;
+}
+
+h2 {
+
+    color: white;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    cursor: crosshair;
+}
+
+input {
+
+    background-color: black;
+    border: 1px solid;
+    color: white;
+    font-size: 15px;
+
+}
+
+button {
+
+    background-color: black;
+    border: 1px solid;
+    color: white;
+    font-size: 15px;
+
+}
+
+.outputValue {
+
+    border: 1px solid;
+    color: white;
+
+    margin-top: 100px;
+
+    width: 600px;
+    height: 400px;
+
+
+}
+
+input:hover, input:focus {
+    outline: none;
+}
+
+button:hover, button:focus {
+    outline: none;
+}
+
+.Image.pic {
+
+    background-image: url(img/Image.png);
+}
